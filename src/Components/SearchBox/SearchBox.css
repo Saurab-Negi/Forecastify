@@ -1,3 +1,9 @@
 .SearchBox{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.SearchBox .text{
+    margin-right: 10px;
+    width: 800x;
 }
