@@ -1,3 +1,29 @@
-.main{
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    position: relative;
     text-align: center;
+    height: 100vh;
+    overflow: hidden; /* Ensures that blurred background won't overflow */
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../../assets/img.jpg);
+    background-size: cover;
+    filter: blur(5px); /* Apply blur filter only to the background */
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    z-index: 1; /* Ensure content is above the blurred background */
+}
+.content h1{
+    margin: 2rem;
 }

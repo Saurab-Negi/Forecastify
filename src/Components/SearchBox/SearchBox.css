@@ -2,8 +2,10 @@
     display: flex;
     justify-content: center;
     align-content: center;
+    margin: 1rem;
 }
 .SearchBox .text{
     margin-right: 10px;
     width: 800x;
+    position: relative;
 }

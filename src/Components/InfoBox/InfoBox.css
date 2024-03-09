@@ -1,7 +1,23 @@
 .InfoBox{
     text-align: center;
 }
+.InfoBox h2{
+    margin: 1rem;
+}
 .card-container{
     display: flex;
     justify-content: center;
+}
+.card{
+    width: 50rem;
+    height: 26rem;
+    padding: 1rem;
+}
+.card-image{
+    border: 3px solid rgb(155, 155, 155);
+    border-radius: 10px;
+}
+.para p{
+    margin: 1rem;
+    color: black;
 }

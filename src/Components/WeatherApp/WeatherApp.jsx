@@ -20,10 +20,13 @@ function WeatherApp() {
 
   return (
     <div className="main">
-      <h1>Forecastify</h1>
-      <SearchBox updateInfo={updateInfo}/>
-      <InfoBox  info={weatherInfo}/> {/* InfoBox will display weatherInfo using props */}
+    <div className="background"></div>
+    <div className="content">
+        <h1>Forecastify</h1>
+        <SearchBox updateInfo={updateInfo}/>
+        <InfoBox  info={weatherInfo}/>
     </div>
+</div>
   )
 }
 
